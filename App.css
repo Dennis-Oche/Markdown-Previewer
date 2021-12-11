@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@500&display=swap');
+
+body {
+    width: auto;
+    height: auto;
+}
+
+* {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 20px;
+}
+
+.mainContainer {
+    width: 100%;
+    min-height: 590px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+}
+
+#editor {
+    width: 100%;
+    min-height: 500px;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+}
+
+.editorContainer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#preview {
+    width: 100%;
+    min-height: 500px;
+    font-size: 15px;
+    border: none;
+    padding: 10px;
+    background: pink;
+}
+
+#preview img {
+    max-width: 75%;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+.markedinput, .result {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    display: flex;
+    flex-direction: start;
+    align-items: center;
+    padding: 0 10px;
+    margin: 3px;
+}
+
+.result {
+    white-space: pre-line;
+}
